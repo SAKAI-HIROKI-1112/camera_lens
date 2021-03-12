@@ -1,27 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 # camera_lens
 
@@ -52,8 +28,6 @@ CIPA が定める内容がいまいち理解できない方や、使用者側の
 ### 主な利用シーン
 
 カメラの本体・レンズの使用者側の感想を知りたい
-
-## 設計書
 
 ### 機能一覧
 
