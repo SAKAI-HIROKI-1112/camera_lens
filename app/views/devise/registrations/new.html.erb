@@ -8,9 +8,9 @@
     <div class="offset-4 col-4">
     <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
       <%= render "devise/shared/error_messages", resource: resource %>
-      <div class="row">
+      <div class="form-group">
         <%= f.label :お名前, class: "brown-border px-3" %>
-        <%= f.text_field :name, autofocus: true %>
+        <%= f.text_field :name, autofocus: true, autocomplete: "name", placeholder:"例）大阪太郎", class: "form-control offset-1 col-11" %>
       </div>
       <div class="form-group">
         <%= f.label :メールアドレス, class: "brown-border px-3" %>
@@ -31,8 +31,8 @@
   　</div>
 　</div>
   <div class="row">
-    <div class="offset-9">
-      <%= link_to "アカウントを登録している方はこちらからログイン", new_session_path(resource_name), class: "btn btn-sm btn-outline-danger" %>
+    <div class="offset-8">
+      <%= link_to "アカウントを登録している方はこちらから", new_session_path(resource_name), class: "btn btn-sm btn-outline-danger" %>
     </div>
   </div>
 </div>
